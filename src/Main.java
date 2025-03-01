@@ -10,6 +10,7 @@ public class Main {
         a = in.nextInt();
         b = in.nextInt();
         c = in.nextInt();
+        in.close();
         int arr[] = {a, b, c};
         boolean flag = false;
         for (int i = 0; i < arr.length; i++) {
